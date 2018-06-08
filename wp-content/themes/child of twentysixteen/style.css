@@ -8,3 +8,19 @@ Template: twentysixteen
 */
 
 @import url(../twentysixteen/style.css);
+
+.site-branding .site-title a {
+    color: #eca210;
+}
+
+    .site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #03A9F4;
+}
+
+.site {
+    background-color: #000;
+}
+
+.site {
+    background-color: #fff;
+}
