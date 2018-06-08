@@ -1,5 +1,14 @@
 <?php
 
+function wpb_add_google_fonts() {
+
+	wp_enqueue_style ('wpb-google-fonts','
+https://fonts.googleapis.com/css?family=Open+Sans', false);
+}
+
+
+
+
 function my_theme_enqueue_style(){
 
 	$parent_style = 'twentysixteen-style'; //This is 'twentysixteen-style'for the Twenty Sixteen theme.

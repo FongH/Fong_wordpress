@@ -8,6 +8,8 @@ Template: twentysixteen
 */
 
 @import url(../twentysixteen/style.css);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/*font-family: 'Open Sans', sans-serif; */
 
 .site-branding .site-title a {
     color: #eca210;
