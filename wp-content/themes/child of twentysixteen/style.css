@@ -20,9 +20,34 @@ Template: twentysixteen
 }
 
 .site {
-    background-color: #000;
+    background-color: #FFEB3B;
 }
 
-.site {
-    background-color: #fff;
+focus {
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+}
+
+.main-navigation a{
+	color:#b;
+}
+
+@media screen and (mon-width:56.875em){
+     .widget  .widget-title {
+     	font-size: 1rem;
+}
+
+
+.sticky-post::before{
+	background-color: chartreuse;
+	content:"Featured Content";
+	display: :black;
+	text-align: center;
+	font-family: 'BioRhyme Expanded', serif;
+	font-size: 80 %;
+	padding: 1 em
+
+
 }
