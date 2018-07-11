@@ -8,20 +8,53 @@ Template: twentysixteen
 */
 
 @import url(../twentysixteen/style.css);
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 /*font-family: 'Open Sans', sans-serif; */
 
-.site-branding .site-title a {
-    color: #eca210;
+body {
+    background: #250000;
+    font-family: 'Raleway', sans-serif;
 }
+
+.site-branding .site-title a {
+    color: #d4bcbd;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+
+
 
     .site-branding .site-title a:hover, .site-branding .site-title a:focus {
     color: #03A9F4;
 }
+.entry-title a {
+    color: #ffffff;
+}
+
+.site-description {
+    color: #d4bcbd;
+ }
+
+ .site-info a {
+    color: #481818;
+}
+
+a {
+    color: #441e1a;
+}
+
 
 .site {
-    background-color: #FFEB3B;
+    background-color: #250000;
 }
+
+.post-navigation a {
+    color: #846c6c;
+ }
+
 
 focus {
     outline: -webkit-focus-ring-color auto 5px;
@@ -30,8 +63,15 @@ focus {
     outline-width: 5px;
 }
 
-.main-navigation a{
-	color:#b;
+
+
+body, button, input, select, textarea {
+    color: #732020;
+}
+
+
+.main-navigation a {
+    color: #d4bcbc;
 }
 
 @media screen and (mon-width:56.875em){
@@ -45,9 +85,14 @@ focus {
 	content:"Featured Content";
 	display: :black;
 	text-align: center;
-	font-family: 'BioRhyme Expanded', serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 80 %;
 	padding: 1 em
 
 
 }
+
+
+
+
+
