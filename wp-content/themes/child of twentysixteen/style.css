@@ -19,7 +19,7 @@ body {
 }
 
 .site-branding .site-title a {
-    color: #d4bcbd;
+    color: #d8b4b4;
     font-family: 'Quicksand', sans-serif;
 
 }
@@ -28,14 +28,14 @@ body {
 
 
     .site-branding .site-title a:hover, .site-branding .site-title a:focus {
-    color: #03A9F4;
+    color: #0a869c;
 }
 .entry-title a {
-    color: #ffffff;
+    color: #d8d5d5;
 }
 
 .site-description {
-    color: #d4bcbd;
+    color: #846162;
  }
 
  .site-info a {
@@ -43,7 +43,7 @@ body {
 }
 
 a {
-    color: #441e1a;
+    color: #65433f;
 }
 
 
@@ -66,7 +66,7 @@ focus {
 
 
 body, button, input, select, textarea {
-    color: #732020;
+    color: #673131;
 }
 
 
